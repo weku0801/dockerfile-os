@@ -68,7 +68,6 @@ jobs:
       - name: Extract OS_VERSION from Dockerfile
         id: extract-os-version
         run: |
-          env
           OS_VERSION=$(grep '^ARG OS_VERSION=' alpine-3.10/Dockerfile | sed 's/^ARG OS_VERSION=//')
           echo "OS_VERSION=${OS_VERSION}" >> $GITHUB_ENV
 
