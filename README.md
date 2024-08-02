@@ -2,8 +2,12 @@
 
 ## alpine
 
-- [ ] [3.10](weku0801/dockerfile-os/alpine-3.10/Dockerfile)
+- [x] [3.10](alpine-3.10/Dockerfile)
 
 ## ubuntu
 
-- [ ] [22.04](weku0801/dockerfile-os/ubuntu-2204/Dockerfile)
+- [x] [22.04](ubuntu-2204/Dockerfile)
+
+## rockylinux
+
+- [x] [9.5](rockylinux/Dockerfile)
